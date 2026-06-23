@@ -1,0 +1,10 @@
+1003;12345;400.00;2026-06-03;APROBADO;false;Tamaño de cuenta no valido
+1004;1234567890123458;-20.00;2026-06-03;APROBADO;false;Importe incorrecto
+1004;1234567890123458;0.00;2026-06-03;APROBADO;false;Importe incorrecto
+1004;1234567890123458;0;2026-06-03;APROBADO;false;Importe incorrecto
+1004;1234567890123458;0;2026-06-03;APROBADO;false;Importe incorrecto
+1002;1234567890123457;100.00;06-02-2026;APROBADO;false;Formato de fecha no valido
+1002;1234567890123457;0.00;06-02-2026;APROBADO;false;Importe incorrectoFormato de fecha no valido
+1002;1234567890123457;100.00;2026-06-03;EMPTY;false;EStatus invalido
+1002;1234567890123457;0.00;06-02-2026;EMPTY;false;Importe incorrectoFormato de fecha no validoEStatus invalido
+1002;1234567890123457;100.00;2026-06-03;EMPTY;false;EStatus invalido

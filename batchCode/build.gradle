@@ -5,7 +5,7 @@ plugins {
 	id 'jacoco'
 }
 
-group = 'com.rocea.batch'
+group = 'com.rocea.batch.pagosclientes'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -13,6 +13,11 @@ java {
 		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
+
+repositories {
+	mavenCentral()
+}
+
 test {
 	useJUnitPlatform()
 	finalizedBy jacocoTestReport
@@ -29,9 +34,6 @@ jacocoTestReport {
 }
 bootJar {
 	enabled = true
-}
-repositories {
-	mavenCentral()
 }
 
 dependencies {
@@ -51,7 +53,11 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	testCompileOnly("org.projectlombok:lombok:1.18.46")
 	testAnnotationProcessor("org.projectlombok:lombok:1.18.46")
+
+
+	
 }
+
 
 tasks.named('test') {
 	useJUnitPlatform()
