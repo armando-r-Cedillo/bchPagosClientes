@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export BTC_CLIENTES_EXECUTION=/CLIENTES/EXECUTION
+export BTC_CLIENTES_INPUT=/CLIENTES/FILES/INPUT
+export BTC_CLIENTES_OUTPUT=/CLIENTES/FILES/OUTPUT
+
+
+echo $BTC_CLIENTES_EXECUTION
+echo $BTC_CLIENTES_INPUT
+echo $BTC_CLIENTES_OUTPUT
+
+echo "Inicia ejecución del jar"
+java -jar $BTC_CLIENTES_EXECUTION/clientes-0.0.1-SNAPSHOT.jar --spring.profiles.active=qa
+#java -jar $BTC_CLIENTES_EXECUTION/clientes-0.0.1-SNAPSHOT.jar
