@@ -1,4 +1,4 @@
 package com.rocea.batch.pagosclientes.reader;
 
-public class reader {
+public class PagoReaderConfig {
 }
